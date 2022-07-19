@@ -1,6 +1,6 @@
 import random
 from hangman_words import word_list
-from hangman_art import stages, logo
+from art import stages, hangman_logo
 
 
 def main():
@@ -54,5 +54,5 @@ def main():
     return 
 
 if __name__ == '__main__':
-    print(logo)
+    print(hangman_logo)
     main()
